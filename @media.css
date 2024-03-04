@@ -1,0 +1,151 @@
+@media screen and (max-width: 991px){
+    .nav{
+        height: 7.5vh;
+        gap:30vh;
+    }
+
+    .nav-content{
+        display: none;
+    }
+
+    .nav-toogle i{
+        color: white;
+        font-size: 22px;
+    }
+
+    .nav-toogle i:hover{
+        opacity: 0.7;
+        color: orange;
+    }
+
+    .nav-logo{
+        height: 50px;
+        width: 100px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        overflow: hidden;
+        margin-bottom: 2px;
+        margin-right:0px;
+    }
+
+
+    .logo{
+        background-image: url("Logo.png");
+        margin-top:0px;
+        height: 50px;
+        width: 150px;
+        background-size: cover;
+        background-size: 12vh;
+        background-repeat: no-repeat;
+        margin-right: 0px;
+        
+    }
+/* black opacity */
+    .background{
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 97vh;
+        width: 100%;
+        position: relative;
+        top: 62px;
+    }
+    
+    h3{
+        font-size: 18px;
+        position: relative;
+        top: 2%;
+    }
+
+    h1{
+        font-size: 60px;
+        top: 30%;
+    }
+
+    .button{
+        /* background-color: brown; */
+        height: 30vh;
+        width: 100%;
+        top: 40%;
+    }
+
+    .heroTwo{
+        height: 85vh;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        display: block;
+        gap: 40px;
+    }
+
+    .box1{
+        margin-top: 20px;
+        height: 350px;
+        width: 100%;
+        /* border: 2px solid orange; */
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .img1{
+        background-image: url("img2.jpg");
+        background-size: cover;
+        background-size: 22vh;
+        background-repeat: no-repeat;
+        height: 30.5vh;
+        width: 20vh;
+        border-radius: 7px;
+        transition-duration: 1s;
+    }
+
+    .img2{
+        background-image: url("img3.png");
+        background-size: cover;
+        background-size: 25vh;
+        background-repeat: no-repeat;
+        height: 30vh;
+        width: 20vh;
+        margin-top: 23.4%;
+        border-radius: 7px;
+        transition-duration: 1s;
+        
+    }
+
+    .box2{  
+        height: 320px;
+        width: 100%;
+        /* border: 2px solid orange; */
+    }
+
+    .box2 h2{
+        text-align: center;
+        color: black;
+        margin-top: 30px;
+        font-size: 25px;
+        padding-left: 0;
+    }
+
+    .box2 p{
+        font-size: 16px;
+        margin-right: 0;
+        line-height: 25px; 
+        margin-top: 20px;
+        padding-left: 20px;  
+        padding-right: 20px;
+        text-align: center; 
+    }
+
+    #find{
+        height: 50px;
+        width: 140px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 15px;
+        font-family:'Trebuchet MS', sans-serif;
+        border: 1.5px solid black;
+        margin-top: 10px;
+        margin-left: 33%;
+    }
+}
